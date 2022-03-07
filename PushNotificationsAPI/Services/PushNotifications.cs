@@ -14,7 +14,7 @@ namespace PushNotificationsAPI.Services
             {
                 FirebaseApp.Create(new AppOptions()
                 {
-                    Credential = GoogleCredential.FromFile("C:/Users/Felipe/source/repos/PushNotificationsAPI/PushNotificationsAPI/private_key.json"),
+                    Credential = GoogleCredential.FromFile(<PATH> +"/private_key.json"),
                 });
             }
         }
